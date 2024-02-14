@@ -1,0 +1,46 @@
+#about-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    animation: fade-down 0.5s;
+}
+
+@keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+#about-container a {
+    text-decoration: none;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: hue 4s infinite linear;
+}
+
+#about-container p {
+    padding: 1rem;
+    width: 75%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 11rem;
+}
+
+#source-code {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+
+img {
+    width: 32px;
+}
