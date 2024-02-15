@@ -3,7 +3,7 @@ import '../styles/home.css';
 
 function home() {
     const container = document.createElement('div');
-    container.setAttribute('id', 'container');
+    container.setAttribute('id', 'home-container');
 
     const banner = document.createElement('div');
     banner.setAttribute('id', 'banner');
