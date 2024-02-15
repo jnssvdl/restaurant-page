@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
     padding: 1rem;
+    animation: fade-up 700ms;
 }
 
 .item-container {
